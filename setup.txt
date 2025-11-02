@@ -1,0 +1,26 @@
+# mkdir eth-dev-env && cd eth-dev-env
+# npm init -y
+# npm install --save-dev hardhat@2.22.15
+# npx hardhat init
+    ---js project 1st one
+# npx hardhat node
+
+open metamask and configure network
+i. Network Name: Hardhat Local
+ii. RPC URL: http://127.0.0.1:8545
+iii. Chain ID: 31337 (default for Hardhat).
+iv. Currency Symbol: ETH
+save
+
+ Import Test Accounts:
+• Copy a private key from npx hardhat node output (e.g., Account 0’s private key).
+• In MetaMask: Account → Add wallet -> Import Account → Paste private key(dont leave any wide spaces).
+• Result: Account appears with 10,000 ETH balance.
+
+do transaction
+ click on send on the created Go network in Tokens!
+ enter receipts public key and send xx amount
+
+ check by importing other acc too
+
+ done!!
